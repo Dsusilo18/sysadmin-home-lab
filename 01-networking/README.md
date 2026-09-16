@@ -25,3 +25,22 @@ ipconfig
 ipconfig /all
 ping
 nslookup
+
+### Day 2 - DNS and Name Resolution
+
+### Topics Practiced
+
+- DNS fundamentals
+- Name resolution
+- DNS server configuration
+- DNS cache
+- Testing specific DNS servers
+- Basic DNS troubleshooting
+
+### Commands Used
+
+```text
+ipconfig /all
+nslookup
+ipconfig /displaydns
+ipconfig /flushdns
