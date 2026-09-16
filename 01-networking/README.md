@@ -44,5 +44,24 @@ nslookup
 ipconfig /all
 nslookup
 ipconfig /displaydns
-```
 ipconfig /flushdns
+```
+
+### Day 3 - Ports, Services, TCP, and UDP
+
+### Topics Practiced
+
+- Ports and services
+- TCP vs UDP
+- ICMP vs application connectivity
+- Testing specific ports
+- Viewing active connections
+
+### Commands Used
+
+```text
+ping
+Test-NetConnection
+netstat -ano
+tasklist
+```
