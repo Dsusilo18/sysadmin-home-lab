@@ -25,6 +25,7 @@ ipconfig
 ipconfig /all
 ping
 nslookup
+```
 
 ### Day 2 - DNS and Name Resolution
 
@@ -43,4 +44,5 @@ nslookup
 ipconfig /all
 nslookup
 ipconfig /displaydns
+```
 ipconfig /flushdns
