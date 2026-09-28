@@ -180,4 +180,42 @@ related events that help identify the cause.
   
 Troubleshooting should not rely only on symptoms. Event logs provide  
 historical information that helps correlate a reported problem with  
-system or application activity.   
+system or application activity.
+### Day 4 - Static IPs and Network Identity  
+  
+### Topics Practiced  
+  
+- DHCP vs static IP addressing  
+- Server network configuration  
+- IPv4 configuration  
+- Default gateway configuration  
+- DNS server configuration  
+- Network identity  
+  
+### Tasks Completed  
+  
+- Reviewed the server's IPv4 configuration.  
+- Identified whether DHCP was enabled.  
+- Reviewed the default gateway and DNS configuration.  
+- Used PowerShell to inspect network settings.  
+- Located the Windows IPv4 configuration interface.  
+- Tested local and external connectivity.  
+  
+### Commands Used  
+
+```text
+ipconfig /all  
+Get-NetIPConfiguration  
+Get-NetIPAddress  
+Get-DnsClientServerAddress  
+ping  
+nslookup
+```  
+  
+### Key Concepts  
+  
+Servers usually use predictable IP addresses so clients and services can  
+reliably locate them.  
+  
+DHCP automatically provides network settings, while static addressing is  
+manually configured.   
