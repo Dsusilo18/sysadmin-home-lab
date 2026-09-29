@@ -218,4 +218,17 @@ Servers usually use predictable IP addresses so clients and services can
 reliably locate them.  
   
 DHCP automatically provides network settings, while static addressing is  
-manually configured.   
+manually configured.
+
+Incorrect gateway settings can prevent access to other networks.  
+  
+Incorrect DNS settings can allow IP connectivity while causing hostname  
+resolution failures.  
+  
+### What I Learned  
+  
+A server's hostname identifies what the server is, while its IP address  
+identifies where the server can be reached on the network.  
+  
+Network changes should be made one at a time and verified before and  
+after configuration changes.  
