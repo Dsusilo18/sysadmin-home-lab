@@ -124,7 +124,7 @@ Server availability and service availability are not the same thing.
 Troubleshooting should verify both the server's network connectivity and  
 the state of the specific service being used.  
   
-## Day 3 - Event Viewer and Server Logs  
+### Day 3 - Event Viewer and Server Logs  
   
 ### Topics Practiced  
   
@@ -181,6 +181,7 @@ related events that help identify the cause.
 Troubleshooting should not rely only on symptoms. Event logs provide  
 historical information that helps correlate a reported problem with  
 system or application activity.
+
 ### Day 4 - Static IPs and Network Identity  
   
 ### Topics Practiced  
