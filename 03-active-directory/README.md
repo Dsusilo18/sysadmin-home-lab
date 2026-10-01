@@ -69,3 +69,55 @@ domain-connected systems.
 
 DC01 now acts as the first Domain Controller and DNS server for the
 `homelab.local` domain.
+
+### Day 2 - Organizational Units
+
+### Objective
+
+Create an Organizational Unit structure for organizing users and
+computers within the homelab.local Active Directory domain.
+
+### OU Structure
+
+homelab.local
+└── Company
+    ├── Employees
+    │   ├── IT
+    │   ├── HR
+    │   ├── Sales
+    │   └── Accounting
+    ├── Computers
+    └── Disabled Users
+
+### Tasks Completed
+
+- Opened Active Directory Users and Computers.
+- Created a top-level Company OU.
+- Created department OUs for IT, HR, Sales, and Accounting.
+- Created separate OUs for computers and disabled accounts.
+- Enabled Advanced Features in Active Directory Users and Computers.
+- Practiced creating and safely deleting a test OU.
+
+### Tools Used
+
+`dsa.msc`
+
+Active Directory Users and Computers
+
+### Key Concepts
+
+Organizational Units are containers used to organize Active Directory
+objects such as users and computers.
+
+OUs can be used to target Group Policy and delegate administrative
+responsibilities.
+
+An OU does not automatically grant access to resources. Security groups
+are typically used to manage permissions.
+
+### What I Learned
+
+OUs provide structure inside Active Directory and make it easier to
+manage users, computers, policies, and administrative responsibilities.
+
+Organizational structure and resource permissions are separate concepts.
