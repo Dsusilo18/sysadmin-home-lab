@@ -80,14 +80,14 @@ computers within the homelab.local Active Directory domain.
 ### OU Structure
 
 homelab.local
-└── Company
-    ├── Employees
-    │   ├── IT
-    │   ├── HR
-    │   ├── Sales
-    │   └── Accounting
-    ├── Computers
-    └── Disabled Users
+	- Company
+	- Employees
+		- IT
+		- HR
+		- Sales
+		- Accounting
+	- Computers
+	- Disabled Users
 
 ### Tasks Completed
 
