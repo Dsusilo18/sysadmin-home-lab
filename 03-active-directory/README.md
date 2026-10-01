@@ -70,7 +70,7 @@ domain-connected systems.
 DC01 now acts as the first Domain Controller and DNS server for the
 `homelab.local` domain.
 
-### Day 2 - Organizational Units
+## Day 2 - Organizational Units
 
 ### Objective
 
@@ -79,15 +79,17 @@ computers within the homelab.local Active Directory domain.
 
 ### OU Structure
 
+```text
 homelab.local
-	- Company
-	- Employees
-		- IT
-		- HR
-		- Sales
-		- Accounting
-	- Computers
-	- Disabled Users
+└── Company
+    ├── Employees
+    │   ├── IT
+    │   ├── HR
+    │   ├── Sales
+    │   └── Accounting
+    ├── Computers
+    └── Disabled Users
+```
 
 ### Tasks Completed
 
