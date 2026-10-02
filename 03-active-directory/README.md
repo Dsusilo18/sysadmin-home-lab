@@ -70,7 +70,7 @@ domain-connected systems.
 DC01 now acts as the first Domain Controller and DNS server for the
 `homelab.local` domain.
 
-## Day 2 - Organizational Units
+### Day 2 - Organizational Units
 
 ### Objective
 
@@ -123,3 +123,61 @@ OUs provide structure inside Active Directory and make it easier to
 manage users, computers, policies, and administrative responsibilities.
 
 Organizational structure and resource permissions are separate concepts.
+
+### Day 3 - Active Directory User Management
+
+### Objective
+
+Create and manage domain user accounts within the homelab.local
+Active Directory environment.
+
+### Users Created
+
+- Alex Johnson - Sales
+- Sarah Wilson - HR
+- Mike Anderson - IT
+- Jessica Brown - Accounting
+
+### Tasks Completed
+
+- Created domain user accounts.
+- Placed users in the appropriate departmental OUs.
+- Assigned temporary passwords.
+- Required password changes at next logon.
+- Reviewed user account properties.
+- Added department information.
+- Disabled and re-enabled a user account.
+- Practiced moving an account to the Disabled Users OU.
+- Reset a user's password.
+- Queried Active Directory users with PowerShell.
+
+### Commands and Tools Used
+
+```text
+dsa.msc
+
+whoami
+
+Get-ADUser -Filter *
+
+Get-ADUser alex.johnson
+```
+
+### Key Concepts
+
+Domain accounts are centrally managed through Active Directory.
+
+A local account belongs to a specific computer, while a domain account
+can be recognized by systems joined to the domain.
+
+Disabling an account prevents login without immediately deleting the
+user object.
+
+Administrators can reset forgotten passwords and require users to create
+a new password during their next logon.
+
+### What I Learned
+
+Active Directory allows administrators to centrally manage the full
+lifecycle of user accounts, including account creation, password resets,
+disabling, re-enabling, and organizational placement.
