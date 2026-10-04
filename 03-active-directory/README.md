@@ -181,3 +181,61 @@ a new password during their next logon.
 Active Directory allows administrators to centrally manage the full
 lifecycle of user accounts, including account creation, password resets,
 disabling, re-enabling, and organizational placement.
+
+### Day 4 - Active Directory Groups
+
+### Objective
+
+Create security groups and use group membership to organize access
+within the homelab.local domain.
+
+### Groups Created
+
+- GG_IT
+- GG_HR
+- GG_Sales
+- GG_Accounting
+
+All groups were configured as:
+
+- Global scope
+- Security type
+
+### Tasks Completed
+
+- Created a Groups OU.
+- Created departmental security groups.
+- Added users to their appropriate groups.
+- Reviewed group membership through user properties.
+- Practiced removing and re-adding group members.
+- Queried Active Directory groups using PowerShell.
+
+### Commands and Tools Used
+
+```text
+dsa.msc
+Get-ADGroup -Filter *
+Get-ADGroup GG_HR
+Get-ADGroupMember GG_HR
+Get-ADPrincipalGroupMembership sarah.wilson
+```
+
+### Key Concepts
+
+Security groups are used to collect users and assign access to resources.
+
+Organizational Units and groups serve different purposes:
+
+- OUs organize objects and help target Group Policy.
+- Groups are commonly used to manage access and permissions.
+
+Permissions should generally be assigned to groups rather than directly
+to individual users when possible.
+
+### What I Learned
+
+Group-based access is easier to manage than assigning permissions to
+individual users.
+
+When a user's job or department changes, updating group membership can
+change their access without modifying each resource individually.
