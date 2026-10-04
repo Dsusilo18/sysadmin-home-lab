@@ -29,9 +29,9 @@ Planned / Current Virtual Machines:
 
 ## Progress
 
-- [x] Week 1 — Networking Fundamentals
-- [x] Week 2 — Windows Server Fundamentals
-- [x] Week 3 — Active Directory
+- ✅ Week 1 — Networking Fundamentals
+- ✅ Week 2 — Windows Server Fundamentals
+- ✅ Week 3 — Active Directory
 - [ ] Week 4 — Windows Client + Domain Join
 - [ ] Week 5 — DNS + DHCP
 - [ ] Week 6 — File Server + Permissions
