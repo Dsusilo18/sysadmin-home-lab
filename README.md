@@ -32,13 +32,13 @@ Planned / Current Virtual Machines:
 - ✅ Week 1 — Networking Fundamentals
 - ✅ Week 2 — Windows Server Fundamentals
 - ✅ Week 3 — Active Directory
-- [ ] Week 4 — Windows Client + Domain Join
-- [ ] Week 5 — DNS + DHCP
-- [ ] Week 6 — File Server + Permissions
-- [ ] Week 7 — Group Policy
-- [ ] Week 8 — Linux Administration
-- [ ] Week 9 — PowerShell Administration
-- [ ] Week 10 — Troubleshooting / Final Lab
+- ⬜ Week 4 — Windows Client + Domain Join
+- ⬜ Week 5 — DNS + DHCP
+- ⬜ Week 6 — File Server + Permissions
+- ⬜ Week 7 — Group Policy
+- ⬜ Week 8 — Linux Administration
+- ⬜ Week 9 — PowerShell Administration
+- ⬜ Week 10 — Troubleshooting / Final Lab
 
 ## Current Status
 
